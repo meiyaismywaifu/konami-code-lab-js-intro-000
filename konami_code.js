@@ -12,9 +12,12 @@ const codes = [
 ];
 
 function init() { // why wrap inside a function?
-  //document.body.addEventListener("keydown", (event) =>{
+  var konamiCounter = 0;
 
-  //})
   // event listener to document.body
+  document.body.addEventListener("keydown", (event) =>{
+
+  })
+  
   // alert() congratulations if all ten keys are pressed in the right order
 }
