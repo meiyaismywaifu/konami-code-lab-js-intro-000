@@ -25,7 +25,7 @@ function init() { // why wrap inside a function?
 
     if (konamiCounter === 10){
       konamiCounter = 0;
-      alert("success");
+      alert("Hurray");
     }
   })
   // alert() congratulations if all ten keys are pressed in the right order
