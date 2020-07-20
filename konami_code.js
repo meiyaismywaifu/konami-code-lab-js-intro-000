@@ -21,12 +21,13 @@ function init() { // why wrap inside a function?
       konamiCounter++;
     } else {
       konamiCounter = 0;
+      alert("failed");
     }
   })
 
   if (konamiCounter === 10){
     konamiCounter = 0;
-    alert("alert");
+    alert("success");
   }
 
   // alert() congratulations if all ten keys are pressed in the right order
