@@ -18,6 +18,6 @@ function init() { // why wrap inside a function?
   document.body.addEventListener("keydown", (event) =>{
 
   })
-  
+
   // alert() congratulations if all ten keys are pressed in the right order
 }
