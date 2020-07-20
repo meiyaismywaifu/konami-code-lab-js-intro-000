@@ -11,8 +11,7 @@ const codes = [
   "a"
 ];
 
-function init() {
-  alert("this is a test");
+function init() { // why wrap inside a function?
   //document.body.addEventListener("keydown", (event) =>{
 
   //})
