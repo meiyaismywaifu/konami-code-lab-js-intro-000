@@ -12,5 +12,6 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  // event listener to document.body
+  // alert() congratulations if all ten keys are pressed in the right order
 }
