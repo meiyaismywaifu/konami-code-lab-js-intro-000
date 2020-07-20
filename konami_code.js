@@ -28,5 +28,6 @@ function init() { // why wrap inside a function?
       alert("Hurray");
     }
   })
-  // alert() congratulations if all ten keys are pressed in the right order
+  // ...this was simple.
+  // maybe wouldn't have been if i wasn't told "start with (line 18)".
 }
