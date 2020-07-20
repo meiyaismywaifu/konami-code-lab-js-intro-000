@@ -21,7 +21,6 @@ function init() { // why wrap inside a function?
       konamiCounter++;
     } else {
       konamiCounter = 0;
-      alert("failed");
     }
   })
 
