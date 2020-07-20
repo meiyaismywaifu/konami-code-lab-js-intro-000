@@ -16,8 +16,18 @@ function init() { // why wrap inside a function?
 
   // event listener to document.body
   document.body.addEventListener("keydown", (event) => {
-
+    var key = event.key;
+    if (key === codes[konamiCounter]){
+      konamiCounter++;
+    } else {
+      konamiCounter = 0;
+    }
   })
+
+  if (konamiCounter === 10){
+    konamiCounter = 0;
+    alert("alert");
+  }
 
   // alert() congratulations if all ten keys are pressed in the right order
 }
